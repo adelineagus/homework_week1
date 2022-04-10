@@ -4,11 +4,14 @@
     margin: 0;
 }
 
+/*body to have listed background color*/
 body {
     background-color: #d9dcd6;
 }
 
 /*.header {*/
+/* changing from .header (class) to header (tag)*/
+/*header to contain listed properties*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,11 +26,13 @@ h1 {
 }
 
 /*.header h1 .seo { */
+/* assigning class seo to color listed*/
 .seo{
     color: #d9dcd6;
 }
 
 /* .header div { */
+/* assigning navigation class to have properties listed*/
 .navigation {
     padding-top: 15px;
     margin-right: 20px;
@@ -106,6 +111,7 @@ p {
     color: #ffffff;
 } */
 
+/* consolidate .benefit-lead, .benefit-brand and .benefit-cost classes into .benefit-sub*/
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
@@ -125,7 +131,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 } */
-
+/* consolidate .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 into h3*/
 h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -149,6 +155,7 @@ h3 {
     max-width: 150px;
 }*/
 
+/* consolidate .beneefit-lead img, .benefit-brand img, .benefit-cost img into .benefit-sub img*/
 .benefit-sub img {
     display: block;
     margin: 10px auto;
@@ -182,6 +189,7 @@ h3 {
     color: #ffffff;
 } */
 
+/* consolidate .search-engine-optimization, .online-reputation-management, .social-media-marketing into .subcontent*/
 .subcontent {
     margin-bottom: 20px;
     padding: 50px;
@@ -203,6 +211,7 @@ h3 {
     max-height: 200px;
 } */
 
+/* consolidate .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img into .subcontent img*/
 .subcontent img{
     max-height:200px;
 }
@@ -222,12 +231,14 @@ h3 {
     font-size: 36px;
 } */
 
+/* consolidate .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 into h2*/
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /*.footer {*/
+/*changing from .footer (class) to footer(tag)*/
 footer{
     padding: 30px;
     clear: both;
@@ -236,6 +247,7 @@ footer{
 }
 
 /*.footer h2 {*/
+/* changing from .footer h2 to h4*/
 h4{
     font-size: 20px;
 }
